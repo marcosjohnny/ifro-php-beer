@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 :root {
-  --main-color: #d3ad7f;
+  --main-color: #00ab4e;
   --black: #13131a;
   --bg: #010103;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
@@ -82,7 +82,10 @@ section {
 }
 
 .btn:hover {
-  letter-spacing: 0.2rem;
+  /* letter-spacing: 0.1rem; */
+  background-color: #fff;
+  border: 0.5rem #00ab4e solid;
+  color: var(--black);
 }
 
 .header {
@@ -100,7 +103,7 @@ section {
 }
 
 .header .logo img {
-  height: 6rem;
+  height: 8rem;
 }
 
 .header .navbar a {
